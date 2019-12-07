@@ -9,4 +9,6 @@ jobs:
 
     steps:
     - name: Run a one-line script
-      run: echo Hello from $GITHUB_REF
+      run: |
+        echo DIFFERENT BRANCH
+        echo Hello from $GITHUB_REF
